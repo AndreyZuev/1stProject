@@ -1,0 +1,68 @@
+.logo {
+	height: 50px;
+	margin-left: 290px;
+}
+
+.flag {
+	height: 20px;
+}
+
+nav {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 10%; /* Equal width (5 icons with 20% width each = 100%) */
+    margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+    }
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+/* Style the links inside the navigation bar */
+.language-en a {
+	overflow: auto; /* Overflow due to float */
+    font-size: 20px; /* Increased font size */
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	margin-left: 230px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.language-ru a {
+	overflow: auto; /* Overflow due to float */
+    font-size: 20px; /* Increased font size */
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	margin-left: 230px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the color of links on hover */
+.language-en a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.language-en a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.language-ru a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.language-ru a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.ru {
+	margin-left: 290px;
+	margin-top: 50px;
+}
